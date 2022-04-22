@@ -1,5 +1,6 @@
 package com.example;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class ArrayStringException {
@@ -17,7 +18,9 @@ public class ArrayStringException {
 			for(int i =0;i<n;i++)
 			{
 				arr[i] = sc.nextLine();
+				///int x = Integer.ParseInt(sc);
 			}
+			
 		
 			System.out.println("Enter the index of array");
 			int index = sc.nextInt();
